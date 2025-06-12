@@ -6,7 +6,6 @@ api= API_KEY
 j= int(input("How many articles do you want to see? "))
 
 url= f"https://newsapi.org/v2/everything?q={topic}&from=2025*04*28&sortBy=publishedAt&apiKey={api}"
-print(url)
 
 x= requests.get(url)
 
